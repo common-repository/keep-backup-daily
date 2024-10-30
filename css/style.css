@@ -1,0 +1,420 @@
+@charset "utf-8";
+/* CSS Document */
+
+.kbd_settings a{
+	cursor:pointer;
+}
+
+
+.kbd_settings medium.expected{
+
+
+	float:right;
+
+
+}
+
+
+.kbd_settings .useful_link{
+
+	margin-left:10px;
+	float:right;
+}
+.kbd_settings .flower_img{
+	float: left;
+    left: -6px;
+    position: relative;
+    top: 12px;
+    width: 3%;
+}	
+
+.kbd_settings ul.kbd_rc  li.tick,
+.kbd_settings ul.kbd_rc  li.cross{
+    background: transparent url('../images/tick_cross.png') no-repeat 0px 3px;
+    list-style-type: none;   
+    padding: 0 0 0 22px;
+}
+.kbd_settings ul.kbd_rc  li.cross{
+	background-position:0px -14px;
+}
+
+.kbd_settings .hide{
+	display:none;
+}
+
+.kbd_manual_download{
+    font-size: 36px;
+    line-height: 46px;
+    padding: 24% 0 0;
+    text-align: center;
+    width: 100%;
+}
+
+.kbd_rc_console{
+    border-color: #6D6D6D;
+    border-style: solid;
+    border-width: 1px;
+    float: right;
+    width: 230px;
+	overflow:hidden;
+	
+}
+.kbd_rc_console strong{
+    background-color: #6D6D6D;
+    color: #FFFFFF;
+    float: left;
+    padding: 6px 22px;
+	width:100%;
+	margin-bottom:10px;
+}
+.kbd_rc_console .kbd_rc,
+.kbd_rc_console .kbd_rd{
+    float: left;
+    margin-left: 22px;
+}
+.kbd_rc_console .kbd_rd a{
+    text-decoration: none;
+
+}
+.kbd_rc_console .kbd_rd a:hover{
+    text-decoration: underline;
+} 
+.kbd_rc_console .bottom_links{
+    clear: both;
+    padding: 0px 4px;
+    text-align: right;
+}
+.kbd_rc_console .kbd_comments{
+    font-size: 10px;
+	text-decoration:none;
+}
+.kbd_rc_console .kbd_comments:hover{
+	text-decoration:underline;
+}
+.kbd_settings .form-table td{
+	vertical-align:top;
+}
+.kbd_settings label{
+	font-weight:normal;
+}
+.kbd_settings .form-table th,
+.kbd_settings .form-table th label{
+	font-weight:bold;
+}
+.btn {
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.btn-primary {
+    background-color: #428bca;
+    border-color: #357ebd;
+    color: #fff;
+}
+.kbd_settings table td fieldset{
+	clear:both;
+}
+.kbd_settings #recpient_email_address{
+	width:60%;
+}
+.settings_page_kbd_settings .update-nag,
+.settings_page_kbd_settings #wpfooter,
+.btn.btn-primary input{
+	display:none;
+}
+
+.btn.btn-primary.active {
+    background-color: #6d6d6d;
+}
+
+.kbd-bkup-list li{
+	line-height:30px;
+}
+.kbd-bkup-list li input[type="text"]{
+	display:none;
+	width:292px;
+}
+
+.kbd-bkup-list li a.kbd-bkup-title{
+	float:left;
+	width:294px;
+}
+
+label[for=switch_to_premium]{
+
+    color: #007bff;
+    font-weight: normal !important;
+}
+
+.kbd-accordion #images .figure-caption {
+	word-wrap: anywhere;
+}
+
+.kbd_settings .hide{
+    display:none;
+}
+
+.kbdfr .sort-handle::before{
+
+    content: "\F214";
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    font: normal 20px/1 dashicons;
+    vertical-align: top;
+    color: #aaa;
+    background-color: transparent !important;
+    margin-right: 4px;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+.clearfix::after, .clearfix::before {
+    content: "";
+    display: table;
+}
+
+.kbdfr .original-repeatable-field {
+    display: none;
+}
+
+.kbdfr input[type="text"] {
+    padding: 3px 5px;
+}
+
+.kbdfr .row-action-buttons .replace-remove-row::after {
+    display: inline-block;
+    vertical-align: top;
+    top: auto;
+    position: relative;
+    left: auto;
+    height: 22px;
+    line-height: 22px;
+}
+
+.kbdfr .replace-remove-row::after {
+    content: "\F153";
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    font: normal 18px/1 dashicons;
+    vertical-align: middle;
+    color: #999;
+}
+
+.kbdfr .arrow-col::after {
+    content: "\F344";
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    font: normal 22px/1 dashicons;
+    vertical-align: top;
+    color: #999;
+}
+
+.kbdfr .arrow-col:hover {
+    cursor: pointer;
+}
+
+.kbdfr .header-wrapper {
+    margin-bottom: 10px;
+}
+
+.kbdfr .option-heading {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.kbdfr .find-heading {
+
+    width: 320px;
+    margin-left: 5px;
+
+}
+
+.kbdfr .find-heading,
+.kbdfr .replace-heading {
+
+    float: left;
+}
+
+.kbdfr .replace-fields tr td {
+    padding-bottom: 7px;
+}
+
+.kbdfr .replace-remove-row{
+    cursor: pointer;
+}
+
+/* The Modal (background) */
+#find_replace_modal.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 100000; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    -webkit-animation-name: fadeIn; /* Fade in the background */
+    -webkit-animation-duration: 0.4s;
+    animation-name: fadeIn;
+    animation-duration: 0.4s
+}
+
+/* Modal Content */
+#find_replace_modal .modal-content {
+    position: fixed;
+    border-radius: 10px;
+    bottom: 50%;
+    left: 15%;
+    background-color: #fefefe;
+    width: 70%;
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: slideIn;
+    animation-duration: 0.4s
+}
+
+/* The Close Button */
+#find_replace_modal .close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#find_replace_modal .close:hover,
+#find_replace_modal .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#find_replace_modal .modal-header {
+    padding: 2px 16px;
+    border-radius: 9px 9px 0 0;
+    background-color: #007cba;
+    color: white;
+}
+
+#find_replace_modal .modal-header h2 {
+    color: white;
+}
+
+#find_replace_modal .modal-body {
+
+    padding:50px;
+}
+
+
+
+/* Add Animation */
+@-webkit-keyframes slideIn {
+    from {bottom: -300px; opacity: 0}
+    to {bottom: 0; opacity: 1}
+}
+
+@keyframes slideIn {
+    from {bottom: -300px; opacity: 0}
+    to {bottom: 0; opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+#find_replace_modal .kbd_bar {
+    padding-top: 5px;
+    padding-left: 0px;
+    box-sizing: border-box;
+    width: 0;
+    text-align: center;
+    height: 30px;
+    color: white;
+    background-color: #007cba;
+}
+
+#find_replace_modal .kbd_progress {
+    width: 100%;
+    background-color: #b1b1b1;
+}
+
+body{
+    background: #f1f1f1;
+    color: #444;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-size: 13px;
+    line-height: 1.4em;
+    min-width: 600px;
+}
+
+.kbd_side_nav{
+    min-height: 75vh;
+}
+
+.kbd_export_media ul.kbd_sub_dir_list li,
+.kbd_export_media ul.kbd_dir_list li{
+    cursor: pointer;
+    padding: 5px;
+
+}
+
+.kbd_export_media ul.kbd_sub_dir_list li img,
+.kbd_export_media ul.kbd_dir_list li img{
+    width: 22px;
+    position: relative;
+    top: -2px;
+}
+
+.kbd_export_media ul.kbd_sub_dir_list li.kbd_dir_active,
+.kbd_export_media ul.kbd_sub_dir_list li:hover,
+.kbd_export_media ul.kbd_dir_list li.kbd_dir_active,
+.kbd_export_media ul.kbd_dir_list li:hover{
+    background-color: #d4eaff;
+    
+}
+
+div.kbd_media_loader img{
+    width: 70px;
+}
+
+div.kbd_media_loader{
+    display: none;
+}
+
+div.kbd_btn_parent .dashicons{
+    color: #03b003;
+    font-size: 40px;
+    position: relative;
+    top: 0px;
+    left: -15px;
+    display: none;
+}
+
+div.kbd_btn_parent img{
+    width: 50px;
+    display: none;
+}
+
+
+
+

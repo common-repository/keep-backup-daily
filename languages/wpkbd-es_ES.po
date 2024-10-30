@@ -1,0 +1,1289 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-06-10 12:25+0500\n"
+"PO-Revision-Date: 2021-06-10 12:46+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: inc\n"
+"X-Poedit-SearchPath-1: pro\n"
+"X-Poedit-SearchPath-2: index.php\n"
+
+#: inc/Mysqldump.php:216 pro/inc/Mysqldump.php:215
+msgid "Empty DSN string"
+msgstr "Cadena DSN vacía"
+
+#: inc/Mysqldump.php:223 pro/inc/Mysqldump.php:222
+msgid "Missing database type from DSN string"
+msgstr "Falta el tipo de base de datos de la cadena DSN"
+
+#: inc/Mysqldump.php:235 pro/inc/Mysqldump.php:234
+msgid "Missing host from DSN string"
+msgstr "Falta el host de la cadena DSN"
+
+#: inc/Mysqldump.php:242 pro/inc/Mysqldump.php:241
+msgid "Missing database name from DSN string"
+msgstr "Falta el nombre de la base de datos de la cadena DSN"
+
+#: inc/Mysqldump.php:280 pro/inc/Mysqldump.php:279
+msgid "Unsupported database type"
+msgstr "Tipo de base de datos no compatible"
+
+#: inc/Mysqldump.php:284 pro/inc/Mysqldump.php:283 pro/inc/Mysqldump.php:289
+msgid "Connection to"
+msgstr "Conexión a"
+
+#: inc/Mysqldump.php:284 pro/inc/Mysqldump.php:283
+msgid "failed with message"
+msgstr "falló con el mensaje"
+
+#: inc/Mysqldump.php:350 pro/inc/Mysqldump.php:349
+msgid "Table"
+msgstr "Mesa"
+
+#: inc/Mysqldump.php:350 pro/inc/Mysqldump.php:349
+msgid "not found in database"
+msgstr "no encontrado en la base de datos"
+
+#: inc/Mysqldump.php:1042 pro/inc/Mysqldump.php:1040
+msgid "Compression method"
+msgstr "Método de compresión"
+
+#: inc/Mysqldump.php:1042 pro/inc/Mysqldump.php:1040
+msgid "is not defined yet"
+msgstr "aún no está definido"
+
+#: inc/Mysqldump.php:1058 pro/inc/Mysqldump.php:1056
+msgid ""
+"Compression is enabled, but bzip2 lib is not installed or configured properly"
+msgstr ""
+"La compresión está habilitada, pero bzip2 lib no está instalada o "
+"configurada correctamente"
+
+#: inc/Mysqldump.php:1069 inc/Mysqldump.php:1108 inc/Mysqldump.php:1140
+#: pro/inc/Mysqldump.php:1067 pro/inc/Mysqldump.php:1105
+#: pro/inc/Mysqldump.php:1136
+msgid "Output file is not writable"
+msgstr "El archivo de salida no se puede escribir"
+
+#: inc/Mysqldump.php:1078 inc/Mysqldump.php:1117 inc/Mysqldump.php:1149
+#: pro/inc/Mysqldump.php:1076 pro/inc/Mysqldump.php:1114
+#: pro/inc/Mysqldump.php:1145
+msgid "Writting to file failed! Probably, there is no more free space left?"
+msgstr ""
+"Escritura en el archivo falló! Probablemente, ¿no queda más espacio libre?"
+
+#: inc/Mysqldump.php:1097 pro/inc/Mysqldump.php:1094
+msgid "Compression is enabled, but"
+msgstr "La compresión está habilitada, pero"
+
+#: inc/Mysqldump.php:1097 pro/inc/Mysqldump.php:1094
+msgid "is not installed or configured properly"
+msgstr "no está instalado o configurado correctamente"
+
+#: inc/Mysqldump.php:1196 pro/inc/Mysqldump.php:1191
+msgid "Database type support for"
+msgstr "Soporte de tipo de base de datos para"
+
+#: inc/Mysqldump.php:1196 pro/inc/Mysqldump.php:1191
+msgid "not yet available"
+msgstr "no disponible aún"
+
+#: inc/Mysqldump.php:1512
+msgid "Error getting table code, unknown output"
+msgstr "Error al obtener el código de la tabla, salida desconocida"
+
+#: inc/Mysqldump.php:1534 pro/inc/Mysqldump.php:1529
+msgid "Error getting view structure, unknown output"
+msgstr "Error al obtener la estructura de la vista, salida desconocida"
+
+#: inc/Mysqldump.php:1570 pro/inc/Mysqldump.php:1565
+msgid "Error getting trigger code, unknown output"
+msgstr "Error al obtener el código de activación, salida desconocida"
+
+#: inc/Mysqldump.php:1598 pro/inc/Mysqldump.php:1593
+msgid "Error getting procedure code, unknown output."
+msgstr "Error al obtener el código de procedimiento, salida desconocida."
+
+#: inc/Mysqldump.php:1599 inc/Mysqldump.php:1620 pro/inc/Mysqldump.php:1594
+#: pro/inc/Mysqldump.php:1615
+msgid "Please check"
+msgstr "por favor, compruebe"
+
+#: inc/Mysqldump.php:1619 pro/inc/Mysqldump.php:1614
+msgid "Error getting event code, unknown output."
+msgstr "Error al obtener el código del evento, salida desconocida."
+
+#: inc/Mysqldump.php:1915 pro/inc/Mysqldump.php:1910
+msgid "Unexpected parameter passed to"
+msgstr "Parámetro inesperado pasado a"
+
+#: inc/find_replace/class/Common/BackupExport.php:83
+msgid "MySQL export file not found."
+msgstr "No se encontró el archivo de exportación de MySQL."
+
+#: inc/find_replace/class/Common/BackupExport.php:89
+msgid "Could not delete the MySQL export file."
+msgstr "No se pudo eliminar el archivo de exportación de MySQL."
+
+#: inc/find_replace/class/Common/Compatibility/CompatibilityManager.php:214
+msgid ""
+"The compatibility plugin could not be activated because your mu-plugin "
+"directory is currently not writable."
+msgstr ""
+"El complemento de compatibilidad no se pudo activar porque el directorio de "
+"su complemento mu no se puede escribir en este momento."
+
+#: inc/find_replace/class/Common/Compatibility/CompatibilityManager.php:214
+#: inc/find_replace/class/Common/Compatibility/CompatibilityManager.php:246
+msgid "Please update the permissions of the mu-plugins folder"
+msgstr "Actualice los permisos de la carpeta mu-plugins"
+
+#: inc/find_replace/class/Common/Compatibility/CompatibilityManager.php:246
+msgid ""
+"The compatibility plugin could not be deactivated because your mu-plugin "
+"directory is currently not writable."
+msgstr ""
+"El complemento de compatibilidad no se pudo desactivar porque el directorio "
+"del complemento mu no se puede escribir en este momento."
+
+#: inc/find_replace/class/Common/Filesystem/Filesystem.php:740
+msgid "Output prevented download."
+msgstr "Salida impedida descarga."
+
+#: inc/find_replace/class/Common/Filesystem/Filesystem.php:743
+msgid "Could not find the file to download:"
+msgstr "No se pudo encontrar el archivo para descargar:"
+
+#: inc/find_replace/class/Common/Http/Http.php:74
+msgid "Invalid nonce for"
+msgstr "Nonce no válido para"
+
+#: inc/find_replace/class/Common/Http/Http.php:82
+msgid "Access denied for"
+msgstr "Acceso denegado para"
+
+#: inc/find_replace/class/Common/Http/RemotePost.php:158
+msgid ""
+"The connection to the remote server has timed out, no changes have been "
+"committed."
+msgstr ""
+"Se agotó el tiempo de conexión con el servidor remoto, no se han realizado "
+"cambios."
+
+#: inc/find_replace/class/Common/Http/RemotePost.php:160
+msgid "Could not resolve host"
+msgstr "No se pudo resolver el host"
+
+#: inc/find_replace/class/Common/Http/RemotePost.php:160
+msgid "Couldn't resolve host"
+msgstr "No se pudo resolver el host"
+
+#: inc/find_replace/class/Common/Http/RemotePost.php:160
+msgid "couldn't connect to host"
+msgstr "no se pudo conectar al host"
+
+#: inc/find_replace/class/Common/Http/RemotePost.php:161
+msgid "We could not find"
+msgstr "No pudimos encontrar"
+
+#: inc/find_replace/class/Common/Http/RemotePost.php:161
+msgid "Are you sure this is the correct URL?"
+msgstr "¿Estás seguro de que esta es la URL correcta?"
+
+#: inc/find_replace/class/Common/Http/RemotePost.php:167
+msgid ""
+"It appears that you might be trying to pull from a local environment. This "
+"will not work if"
+msgstr ""
+"Parece que está intentando extraer de un entorno local. Esto no funcionará si"
+
+#: inc/find_replace/class/Common/Http/RemotePost.php:167
+#: inc/find_replace/class/Common/Http/RemotePost.php:169
+msgid ""
+"website happens to be located on a remote server, it would be impossible for "
+"this server to contact your local environment."
+msgstr ""
+"Si el sitio web está ubicado en un servidor remoto, sería imposible que este "
+"servidor se pusiera en contacto con su entorno local."
+
+#: inc/find_replace/class/Common/Http/RemotePost.php:169
+msgid ""
+"It appears that you might be trying to push to a local environment. This "
+"will not work if"
+msgstr ""
+"Parece que puede estar intentando enviarlo a un entorno local. Esto no "
+"funcionará si"
+
+#: inc/find_replace/class/Common/Http/RemotePost.php:177
+msgid "We've detected that"
+msgstr "Hemos detectado eso"
+
+#: inc/find_replace/class/Common/Http/RemotePost.php:177
+msgid "is enabled and the host"
+msgstr "está habilitado y el host"
+
+#: inc/find_replace/class/Common/Http/RemotePost.php:177
+msgid "has not been added to"
+msgstr "no ha sido agregado a"
+
+#: inc/find_replace/class/Common/Http/RemotePost.php:177
+msgid "Please disable"
+msgstr "Por favor inhabilite"
+
+#: inc/find_replace/class/Common/Http/RemotePost.php:177
+msgid "or add"
+msgstr "o agregar"
+
+#: inc/find_replace/class/Common/Http/RemotePost.php:177
+msgid "to"
+msgstr "a"
+
+#: inc/find_replace/class/Common/Http/RemotePost.php:177
+msgid "to continue."
+msgstr "continuar."
+
+#: inc/find_replace/class/Common/Http/RemotePost.php:177
+msgid "More information"
+msgstr "Más información"
+
+#: inc/find_replace/class/Common/Http/RemotePost.php:179
+msgid "port"
+msgstr "Puerto"
+
+#: inc/find_replace/class/Common/Http/RemotePost.php:179
+msgid "Connection refused"
+msgstr "conexión denegada"
+
+#: inc/find_replace/class/Common/Http/RemotePost.php:180
+msgid "Couldn't connect over HTTPS."
+msgstr "No se pudo conectar a través de HTTPS."
+
+#: inc/find_replace/class/Common/Http/RemotePost.php:180
+msgid "You might want to try regular HTTP instead."
+msgstr "Es posible que desee probar HTTP normal en su lugar."
+
+#: inc/find_replace/class/Common/Http/RemotePost.php:182
+msgid "HTTPS Connection Error"
+msgstr "Error de conexión HTTPS"
+
+#: inc/find_replace/class/Common/Http/RemotePost.php:182
+msgid ""
+"This typically means that the version of OpenSSL that your local site is "
+"using to connect to the remote is incompatible or, more likely, being "
+"rejected by the remote server because it's insecure."
+msgstr ""
+"Por lo general, esto significa que la versión de OpenSSL que usa su sitio "
+"local para conectarse al control remoto es incompatible o, más "
+"probablemente, el servidor remoto la rechaza porque no es segura."
+
+#: inc/find_replace/class/Common/Http/RemotePost.php:182
+msgid "See our documentation"
+msgstr "Ver nuestra documentación"
+
+#: inc/find_replace/class/Common/Http/RemotePost.php:182
+#: inc/find_replace/class/Common/Http/RemotePost.php:239
+msgid "for possible solutions."
+msgstr "para posibles soluciones."
+
+#: inc/find_replace/class/Common/Http/RemotePost.php:184
+msgid ""
+"The connection failed, an unexpected error occurred, please contact support."
+msgstr ""
+"La conexión falló, se produjo un error inesperado, comuníquese con el "
+"soporte."
+
+#: inc/find_replace/class/Common/Http/RemotePost.php:197
+msgid ""
+"The remote site is protected with Basic Authentication. Please enter the "
+"username and password above to continue. (401 Unauthorized)"
+msgstr ""
+"El sitio remoto está protegido con autenticación básica. Ingrese el nombre "
+"de usuario y la contraseña arriba para continuar. (401 no autorizado)"
+
+#: inc/find_replace/class/Common/Http/RemotePost.php:205
+msgid ""
+"Unable to connect to the remote server, the remote server responded with"
+msgstr ""
+"Incapaz de conectarse al servidor remoto, el servidor remoto respondió con"
+
+#: inc/find_replace/class/Common/Http/RemotePost.php:217
+msgid ""
+"Unable to connect to the remote server, please check the connection details"
+msgstr ""
+"No se puede conectar al servidor remoto, verifique los detalles de la "
+"conexión"
+
+#: inc/find_replace/class/Common/Http/RemotePost.php:233
+msgid "Pro does not seem to be installed or active on the remote site."
+msgstr "Pro no parece estar instalado o activo en el sitio remoto."
+
+#: inc/find_replace/class/Common/Http/RemotePost.php:239
+msgid "A response was expected from the remote, instead we got nothing."
+msgstr ""
+"Se esperaba una respuesta del control remoto, en cambio, no obtuvimos nada."
+
+#: inc/find_replace/class/Common/Http/RemotePost.php:239
+msgid "Please review"
+msgstr "Por favor revise"
+
+#: inc/find_replace/class/Common/Http/RemotePost.php:239
+msgid "our documentation"
+msgstr "nuestra documentación"
+
+#: inc/find_replace/class/Common/Http/RemotePost.php:249
+msgid ""
+"There was a problem with the AJAX request, we were expecting a serialized "
+"response, instead we received"
+msgstr ""
+"Hubo un problema con la solicitud AJAX, esperábamos una respuesta "
+"serializada, en su lugar recibimos"
+
+#: inc/find_replace/class/Common/Http/RemotePost.php:260
+msgid "Invalid content verification signature"
+msgstr "Firma de verificación de contenido no válida"
+
+#: inc/find_replace/class/Common/Http/RemotePost.php:283
+msgid "Failed attempting to verify remote post response"
+msgstr "Error al intentar verificar la respuesta de publicación remota"
+
+#: inc/find_replace/class/Common/Http/RemotePost.php:292
+msgid "Failed as the response is not serialized string"
+msgstr "Error porque la respuesta no es una cadena serializada"
+
+#: inc/find_replace/class/Common/Migration/InitiateMigration.php:221
+msgid ""
+"Failed attempting to unserialize the response from the remote server. Please "
+"contact support."
+msgstr ""
+"Error al intentar anular la serialización de la respuesta del servidor "
+"remoto. Comuníquese con el soporte."
+
+#: inc/find_replace/class/Common/MigrationState/MigrationStateManager.php:86
+msgid "Failed to save migration state. Please contact support."
+msgstr ""
+"No se pudo guardar el estado de la migración. Comuníquese con el soporte."
+
+#: inc/find_replace/class/Common/MigrationState/MigrationStateManager.php:108
+msgid "Failed to retrieve migration state. Please contact support."
+msgstr ""
+"No se pudo recuperar el estado de migración. Comuníquese con el soporte."
+
+#: inc/find_replace/class/Common/Plugin/PluginManagerBase.php:323
+msgid "Migrate DB Pro"
+msgstr "Migrar DB Pro"
+
+#: inc/find_replace/class/Common/Plugin/PluginManagerBase.php:323
+msgid "Migrate DB"
+msgstr "Migrar base de datos"
+
+#: inc/find_replace/class/Common/Properties/Properties.php:73
+msgid ""
+"Invalid content verification signature, please verify the connection "
+"information on the remote site and try again."
+msgstr ""
+"Firma de verificación de contenido no válida, verifique la información de "
+"conexión en el sitio remoto y vuelva a intentarlo."
+
+#: inc/find_replace/class/Common/Replace.php:138
+msgid "constructor expects the argument to be an array"
+msgstr "el constructor espera que el argumento sea una matriz"
+
+#: inc/find_replace/class/Common/Replace.php:143
+msgid "constructor expects"
+msgstr "el constructor espera"
+
+#: inc/find_replace/class/Common/Replace.php:143
+msgid "key to be present in the array argument"
+msgstr "clave para estar presente en el argumento de la matriz"
+
+#: inc/find_replace/class/Common/Replace.php:408
+msgid ""
+"- Failed to instantiate object for replacement. If the serialized object's "
+"class is defined by a plugin, you should enable that plugin for migration "
+"requests. Class Name"
+msgstr ""
+"- No se pudo crear una instancia del objeto para su reemplazo. Si la clase "
+"del objeto serializado está definida por un complemento, debe habilitar ese "
+"complemento para las solicitudes de migración. Nombre de la clase"
+
+#: inc/find_replace/class/Common/Replace.php:462
+msgid ""
+"Failed attempting to do the recursive unserialize replace. Please contact "
+"support."
+msgstr ""
+"No se pudo intentar realizar el reemplazo de unserialize recursivo. "
+"Comuníquese con el soporte."
+
+#: inc/find_replace/class/Common/Sanitize.php:41
+msgid "was not expecting data to be an array."
+msgstr "no esperaba que los datos fueran una matriz."
+
+#: inc/find_replace/class/Common/Sanitize.php:62
+msgid "was expecting an array but got something else"
+msgstr "esperaba una matriz pero obtuve algo más"
+
+#: inc/find_replace/class/Common/Sanitize.php:68
+msgid "was expecting a string but got something else"
+msgstr "esperaba una cuerda pero obtuve algo más"
+
+#: inc/find_replace/class/Common/Sanitize.php:75
+msgid "was expecting a valid key but got something else"
+msgstr "esperaba una clave válida pero obtuve algo más"
+
+#: inc/find_replace/class/Common/Sanitize.php:83
+msgid "was expecting text but got something else"
+msgstr "esperaba un mensaje de texto, pero recibí algo más"
+
+#: inc/find_replace/class/Common/Sanitize.php:90
+msgid "was expecting serialized data but got something else"
+msgstr "esperaba datos serializados pero obtuve algo más"
+
+#: inc/find_replace/class/Common/Sanitize.php:96
+#: inc/find_replace/class/Common/Sanitize.php:103
+msgid "was expecting JSON data but got something else"
+msgstr "esperaba datos JSON pero obtuve algo más"
+
+#: inc/find_replace/class/Common/Sanitize.php:109
+msgid "was expecting a valid numeric but got something else"
+msgstr "esperaba un valor numérico válido pero obtuve algo más"
+
+#: inc/find_replace/class/Common/Sanitize.php:116
+msgid "was expecting an integer but got something else"
+msgstr "esperaba un número entero pero obtuve algo más"
+
+#: inc/find_replace/class/Common/Sanitize.php:123
+msgid "was expecting a positive number (int) but got something else"
+msgstr "esperaba un número positivo (int) pero obtuve algo más"
+
+#: inc/find_replace/class/Common/Sanitize.php:130
+msgid "was expecting a negative number (int) but got something else"
+msgstr "esperaba un número negativo (int) pero obtuve algo más"
+
+#: inc/find_replace/class/Common/Sanitize.php:137
+msgid "was expecting 0 (int) but got something else"
+msgstr "esperaba 0 (int) pero obtuve algo más"
+
+#: inc/find_replace/class/Common/Sanitize.php:144
+msgid "was expecting an empty value but got something else"
+msgstr "esperaba un valor vacío pero obtuve algo más"
+
+#: inc/find_replace/class/Common/Sanitize.php:151
+msgid "was expecting a URL but got something else"
+msgstr "esperaba una URL, pero obtuvo algo más"
+
+#: inc/find_replace/class/Common/Sanitize.php:159
+msgid "was expecting a bool but got something else"
+msgstr "esperaba un bool pero obtuve algo más"
+
+#: inc/find_replace/class/Common/Sanitize.php:165
+msgid "Unknown sanitization rule"
+msgstr "Regla de desinfección desconocida"
+
+#: inc/find_replace/class/Common/Sanitize.php:165
+msgid "supplied by"
+msgstr "suministrada por"
+
+#: inc/find_replace/class/Common/Settings/Settings.php:35
+msgid "Setting does not exist"
+msgstr "El ajuste no existe"
+
+#: inc/find_replace/class/Common/Sql/Table.php:677
+msgid "Failed to retrieve table structure for table"
+msgstr "No se pudo recuperar la estructura de la tabla para la tabla"
+
+#: inc/find_replace/class/Common/Sql/Table.php:677
+msgid "please ensure your database is online."
+msgstr "asegúrese de que su base de datos esté en línea."
+
+#: inc/find_replace/class/Common/Sql/Table.php:747
+msgid "Error creating temporary table. Table"
+msgstr "Error al crear la tabla temporal. Mesa"
+
+#: inc/find_replace/class/Common/Sql/Table.php:747
+msgid "does not exist."
+msgstr "no existe."
+
+#: inc/find_replace/class/Common/Sql/Table.php:794
+msgid "Delete any existing table"
+msgstr "Copia de seguridad nueva"
+
+#: inc/find_replace/class/Common/Sql/Table.php:805
+msgid "Table structure of table"
+msgstr "Estructura de la mesa de la mesa"
+
+#: inc/find_replace/class/Common/Sql/Table.php:813
+msgid ""
+"Failed to generate the create table query, please ensure your database is "
+"online."
+msgstr ""
+"No se pudo generar la consulta de creación de tabla, asegúrese de que su "
+"base de datos esté en línea."
+
+#: inc/find_replace/class/Common/Sql/Table.php:869
+msgid "Data contents of table"
+msgstr "Contenido de datos de la tabla"
+
+#: inc/find_replace/class/Common/Sql/Table.php:993
+msgid "Failed to write the gzipped SQL data to the file."
+msgstr ""
+"No se pudieron escribir los datos SQL comprimidos con gzip en el archivo."
+
+#: inc/find_replace/class/Common/Sql/Table.php:1000
+msgid "Failed to write the SQL data to the file."
+msgstr "Error al escribir los datos SQL en el archivo."
+
+#: inc/find_replace/class/Common/Sql/Table.php:1089
+msgid "Failed to import the stripped SQL query: "
+msgstr "No se pudo importar la consulta SQL eliminada:"
+
+#: inc/find_replace/class/Common/Sql/Table.php:1721
+msgid "End of data contents of table"
+msgstr "Fin del contenido de los datos de la tabla"
+
+#: inc/find_replace/class/Common/Sql/Table.php:1839
+msgid "WordPress MySQL database migration"
+msgstr "Migración de base de datos WordPress MySQL"
+
+#: inc/find_replace/class/Common/Sql/Table.php:1841
+msgid "Generated"
+msgstr "Generado"
+
+#: inc/find_replace/class/Common/Sql/Table.php:1842
+msgid "Hostname"
+msgstr "Nombre de host"
+
+#: inc/find_replace/class/Common/Sql/Table.php:1843
+msgid "Database"
+msgstr "Base de datos"
+
+#: inc/find_replace/class/Common/UI/Notice.php:40
+msgid "Remind Me Later"
+msgstr "Recuérdame más tarde"
+
+#: inc/find_replace/class/Common/UI/TemplateBase.php:190
+msgid "Warning: Mixed Case Table Names"
+msgstr "Advertencia: Nombres de tablas de casos mixtos"
+
+#: inc/find_replace/class/Common/UI/TemplateBase.php:193
+#: inc/find_replace/class/Common/UI/TemplateBase.php:195
+msgid "Whoa! We've detected that your"
+msgstr "¡Guau! Hemos detectado que tu"
+
+#: inc/find_replace/class/Common/UI/TemplateBase.php:193
+msgid "local"
+msgstr "local"
+
+#: inc/find_replace/class/Common/UI/TemplateBase.php:193
+#: inc/find_replace/class/Common/UI/TemplateBase.php:195
+msgid "site has the MySQL setting"
+msgstr "el sitio tiene la configuración de MySQL"
+
+#: inc/find_replace/class/Common/UI/TemplateBase.php:193
+#: inc/find_replace/class/Common/UI/TemplateBase.php:195
+msgid "set to"
+msgstr "ajustado a"
+
+#: inc/find_replace/class/Common/UI/TemplateBase.php:195
+msgid "remote"
+msgstr "remoto"
+
+#: inc/find_replace/class/Common/UI/TemplateBase.php:198
+msgid ""
+"As a result, uppercase characters in table names will be converted to "
+"lowercase during the migration."
+msgstr ""
+"Como resultado, los caracteres en mayúsculas en los nombres de las tablas se "
+"convertirán a minúsculas durante la migración."
+
+#: inc/find_replace/class/Common/Util/Util.php:174
+msgid "Scope"
+msgstr "Alcance"
+
+#: inc/find_replace/class/Common/Util/Util.php:175
+msgid "kbfnr Error: Data cannot be unserialized."
+msgstr "Error de kbfnr: los datos no se pueden anular la serialización."
+
+#: inc/functions.php:113 inc/functions.php:114 inc/functions.php:783
+msgid "Export"
+msgstr "Exportar"
+
+#: inc/functions.php:134 inc/functions.php:148 pro/kbd_extended.php:62
+#: pro/kbd_extended.php:97
+msgid "You do not have sufficient permissions to access this page."
+msgstr "No tiene permisos suficientes para acceder a esta página."
+
+#: inc/functions.php:213
+msgid "Settings saved."
+msgstr "Ajustes guardados."
+
+#: inc/functions.php:229
+msgid "Access Denied."
+msgstr "Acceso denegado."
+
+#: inc/functions.php:243
+msgid "Invalid Email Address."
+msgstr "Dirección de correo electrónico no válida."
+
+#: inc/functions.php:269
+msgid "Well done!"
+msgstr "¡Bien hecho!"
+
+#: inc/functions.php:269
+msgid "Your backup will be in your inbox on time."
+msgstr "Su copia de seguridad estará en su bandeja de entrada a tiempo."
+
+#: inc/functions.php:306
+msgid "Are you sure, you want to replace existing files with this archive?"
+msgstr ""
+"¿Está seguro de que desea reemplazar los archivos existentes con este "
+"archivo?"
+
+#: inc/functions.php:307
+msgid "Finalizing replacements in tables"
+msgstr "Finalizando reemplazos en tablas"
+
+#: inc/functions.php:308
+msgid "Flushing caches"
+msgstr "Vaciado de cachés"
+
+#: inc/functions.php:309
+msgid "Completed"
+msgstr "Terminado"
+
+#: inc/functions.php:310
+msgid "Backup already in process. Please wait."
+msgstr "Copia de seguridad ya en proceso. Espere por favor."
+
+#: inc/functions.php:311
+msgid "Are your sure? You want to delete this item."
+msgstr "¿Estás seguro? Quieres eliminar este elemento."
+
+#: inc/functions.php:312
+msgid "Are your sure? You want to cancel find and replace process."
+msgstr "¿Estás seguro? Desea cancelar el proceso de búsqueda y reemplazo."
+
+#: inc/functions.php:313
+msgid ""
+"The find & replace has been cancelled and all temporary data has been "
+"cleaned up."
+msgstr ""
+"Se canceló la búsqueda y reemplazo y se limpiaron todos los datos temporales."
+
+#: inc/functions.php:314
+msgid "At least one find field is required to proceed."
+msgstr "Se requiere al menos un campo de búsqueda para continuar."
+
+#: inc/functions.php:599 inc/kbd_settings.php:9 inc/kbd_settings.php:198
+#: pro/inc/kbd_settings_pro.php:329
+msgid "Settings"
+msgstr "Configuraciones"
+
+#: inc/functions.php:605
+msgid "Go Premium"
+msgstr "Hazte Premium"
+
+#: inc/functions.php:635 inc/functions.php:862 inc/functions.php:946
+#: inc/functions.php:987 pro/inc/kbd_settings_pro.php:32
+msgid "Sorry, your nonce did not verify."
+msgstr "Lo sentimos, su nonce no se verificó."
+
+#: inc/functions.php:658
+msgid "Content Items (Posts, Pages, Custom Post Types, Revisions)"
+msgstr ""
+"Elementos de contenido (publicaciones, páginas, tipos de publicaciones "
+"personalizadas, revisiones)"
+
+#: inc/functions.php:659
+msgid "Excerpts"
+msgstr "Extractos"
+
+#: inc/functions.php:660
+msgid "Attachments"
+msgstr "Archivos adjuntos"
+
+#: inc/functions.php:661
+msgid "Links"
+msgstr "Enlaces"
+
+#: inc/functions.php:662
+msgid "Custom Fields"
+msgstr "Campos Personalizados"
+
+#: inc/functions.php:663
+msgid "GUIDs"
+msgstr "GUID"
+
+#: inc/functions.php:806
+msgid "Click to View Sub Directories"
+msgstr "Haga clic para ver los subdirectorios"
+
+#: inc/functions.php:842
+msgid "Empty Directory"
+msgstr "Directorio vacío"
+
+#: inc/kbd_cron.php:27
+msgid "You are receiving backups on your Admin Email address."
+msgstr ""
+"Está recibiendo copias de seguridad en su dirección de correo electrónico de "
+"administrador."
+
+#: inc/kbd_cron.php:193
+msgid "There is no backup exists."
+msgstr "No hay copia de seguridad existe."
+
+#: inc/kbd_cron.php:193
+msgid "Do you want to create one now?"
+msgstr "¿Quieres crear uno ahora?"
+
+#: inc/kbd_cron.php:194 inc/kbd_cron.php:306
+msgid "Click here to start backup process"
+msgstr "Haga clic aquí para iniciar el proceso de copia de seguridad"
+
+#: inc/kbd_cron.php:198
+msgid "Please wait a little more."
+msgstr "Por favor espera un poco más."
+
+#: inc/kbd_cron.php:208
+msgid "Following database backups are available:"
+msgstr ""
+"Las siguientes copias de seguridad de la base de datos están disponibles:"
+
+#: inc/kbd_cron.php:209 inc/kbd_cron.php:306
+msgid "Click here for latest backup"
+msgstr "Haga clic aquí para obtener la última copia de seguridad"
+
+#: inc/kbd_cron.php:232 inc/kbd_cron.php:423
+msgid "Click here to edit this title"
+msgstr "Haga clic aquí para editar este título"
+
+#: inc/kbd_cron.php:233 inc/kbd_cron.php:424 inc/kbd_export_media.php:33
+#: pro/inc/kbd_list_pro.php:355 pro/inc/kbd_list_pro.php:379
+msgid "Download"
+msgstr "Descargar"
+
+#: inc/kbd_cron.php:234 inc/kbd_cron.php:425 pro/inc/kbd_list_pro.php:381
+msgid "Delete"
+msgstr "Eliminar"
+
+#: inc/kbd_cron.php:313
+msgid "Back"
+msgstr "atrás"
+
+#: inc/kbd_cron.php:317
+msgid "Fresh Backup"
+msgstr "Copia de seguridad nueva"
+
+#: inc/kbd_cron.php:318
+msgid "Backup List"
+msgstr "Lista de respaldo"
+
+#: inc/kbd_cron.php:326
+msgid "Latest Backup"
+msgstr "Última copia de seguridad"
+
+#: inc/kbd_cron.php:350
+msgid "Old Backup List"
+msgstr "Lista de copias de seguridad antiguas"
+
+#: inc/kbd_cron.php:435
+msgid "No Backup Found"
+msgstr "No se encontró ninguna copia de seguridad"
+
+#: inc/kbd_find_replace.php:20 inc/kbd_find_replace.php:129
+msgid "Find & Replace"
+msgstr "Buscar y reemplazar"
+
+#: inc/kbd_find_replace.php:25
+msgid "Find"
+msgstr "Encontrar"
+
+#: inc/kbd_find_replace.php:26
+msgid "Replace"
+msgstr "Reemplazar"
+
+#: inc/kbd_find_replace.php:76
+msgid "Add Row"
+msgstr "Añadir fila"
+
+#: inc/kbd_find_replace.php:85
+msgid "Advanced Options"
+msgstr "Opciones avanzadas"
+
+#: inc/kbd_find_replace.php:94
+msgid "Replace GUIDs"
+msgstr "Reemplazar GUID"
+
+#: inc/kbd_find_replace.php:101
+msgid "Exclude spam comments"
+msgstr "Excluir comentarios de spam"
+
+#: inc/kbd_find_replace.php:116
+msgid "Exclude post revisions"
+msgstr "Excluir revisiones de publicaciones"
+
+#: inc/kbd_find_replace.php:141 inc/kbd_settings.php:14
+msgid "Find and Replace"
+msgstr "Encontrar y reemplazar"
+
+#: inc/kbd_find_replace.php:145
+msgid "Searching in tables"
+msgstr "Buscando en tablas"
+
+#: inc/kbd_settings.php:13
+msgid "General Settings"
+msgstr "Configuración general"
+
+#: inc/kbd_settings.php:15
+msgid "Media Library"
+msgstr "Mediateca"
+
+#: inc/kbd_settings.php:31
+msgid "BACKUP: THEMES, PLUGINS, UPLOADS AND CORE FILES"
+msgstr "COPIA DE SEGURIDAD: TEMAS, PLUGINS, CARGAS Y ARCHIVOS PRINCIPALES"
+
+#: inc/kbd_settings.php:75
+msgid "Backup Required"
+msgstr "Copia de seguridad requerida"
+
+#: inc/kbd_settings.php:82
+msgid "Daily"
+msgstr "Diario"
+
+#: inc/kbd_settings.php:85
+msgid "Weekly"
+msgstr "Semanal"
+
+#: inc/kbd_settings.php:88
+msgid "Monthly"
+msgstr "Mensual"
+
+#: inc/kbd_settings.php:91
+msgid "Yearly"
+msgstr "Anual"
+
+#: inc/kbd_settings.php:106
+msgid "Click here to email your backup now"
+msgstr ""
+"Haga clic aquí para enviar su copia de seguridad por correo electrónico ahora"
+
+#: inc/kbd_settings.php:106
+msgid "Email Backup Now"
+msgstr "Copia de seguridad de correo electrónico ahora"
+
+#: inc/kbd_settings.php:108
+msgid "Click here to download your backup now"
+msgstr "Haga clic aquí para descargar su copia de seguridad ahora"
+
+#: inc/kbd_settings.php:108
+msgid "Download Backup Now"
+msgstr "Descargar Backup ahora"
+
+#: inc/kbd_settings.php:116
+msgid "Recommended Links"
+msgstr "Enlaces Recomendados"
+
+#: inc/kbd_settings.php:128
+msgid "Recipient Email Address"
+msgstr "Dirección de Correo Electrónico del Destinatario"
+
+#: inc/kbd_settings.php:134 inc/kbd_settings.php:204
+msgid "Default"
+msgstr "Defecto"
+
+#: inc/kbd_settings.php:146
+msgid "Requirements List"
+msgstr "Lista de requisitos"
+
+#: inc/kbd_settings.php:150
+msgid "Backup file can not be created in"
+msgstr "El archivo de copia de seguridad no se puede crear en"
+
+#: inc/kbd_settings.php:150 inc/kbd_settings.php:152 inc/kbd_settings.php:154
+#: inc/kbd_settings.php:156
+msgid "Everything is Good"
+msgstr "Todo es bueno"
+
+#: inc/kbd_settings.php:150
+msgid "Write Permissions"
+msgstr "Permisos de escritura"
+
+#: inc/kbd_settings.php:152
+msgid "Backup file can not be compressed, you will get .sql file as backup."
+msgstr ""
+"El archivo de copia de seguridad no se puede comprimir, obtendrá el archivo ."
+"sql como copia de seguridad."
+
+#: inc/kbd_settings.php:152
+msgid "Zip Library"
+msgstr "Biblioteca Zip"
+
+#: inc/kbd_settings.php:154
+msgid ""
+"You are lacking an improved security measure but it will not affect in "
+"normal cases."
+msgstr ""
+"Le falta una medida de seguridad mejorada, pero no afectará en casos "
+"normales."
+
+#: inc/kbd_settings.php:154
+msgid "MCRYPT Library"
+msgstr "Biblioteca MCRYPT"
+
+#: inc/kbd_settings.php:156
+msgid ""
+"You might will not be able to download database backup with Backup Now "
+"option."
+msgstr ""
+"Es posible que no pueda descargar la copia de seguridad de la base de datos "
+"con la opción Copia de seguridad ahora."
+
+#: inc/kbd_settings.php:156
+msgid "Fileinfo"
+msgstr "Información del archivo"
+
+#: inc/kbd_settings.php:156
+msgid "Library"
+msgstr "Biblioteca"
+
+#: inc/kbd_settings.php:159
+msgid "Need Help?"
+msgstr "¿Necesitas ayuda?"
+
+#: inc/kbd_settings.php:166
+msgid "Maintain Log"
+msgstr "Mantener registro"
+
+#: inc/kbd_settings.php:172
+msgid "You will be able to view log with date and time."
+msgstr "Podrá ver el registro con fecha y hora."
+
+#: inc/kbd_settings.php:174
+msgid "Only log file will be stored on your server."
+msgstr "Solo el archivo de registro se almacenará en su servidor."
+
+#: inc/kbd_settings.php:198
+msgid "Cron Job"
+msgstr "Cron Job"
+
+#: inc/kbd_settings.php:198
+msgid ""
+"By default we will access cron file placed on your server for your "
+"convenience."
+msgstr ""
+"Por defecto, accederemos al archivo cron colocado en su servidor para su "
+"conveniencia."
+
+#: inc/kbd_settings.php:198
+msgid ""
+"Because most of the users don't have idea that how to set a cron or "
+"conscious about their server performance."
+msgstr ""
+"Porque la mayoría de los usuarios no tienen idea de cómo configurar un cron "
+"o ser conscientes del rendimiento de su servidor."
+
+#: inc/kbd_settings.php:198
+msgid "Important"
+msgstr "Importante"
+
+#: inc/kbd_settings.php:210
+msgid "Custom"
+msgstr "Personalizado"
+
+#: inc/kbd_settings.php:210
+msgid "more"
+msgstr "más"
+
+#: inc/kbd_settings.php:214
+msgid "You have to run the following file, write the"
+msgstr "Tienes que ejecutar el siguiente archivo, escribe el"
+
+#: inc/kbd_settings.php:214
+msgid "command which is suitable on your server"
+msgstr "comando que es adecuado en su servidor"
+
+#: inc/kbd_settings.php:221
+msgid "Save Changes"
+msgstr "Guardar cambios"
+
+#: index.php:75
+msgid "Pro"
+msgstr "Pro"
+
+#: index.php:83
+msgid "Get premium version now!"
+msgstr "¡Obtenga la versión premium ahora!"
+
+#: index.php:84
+msgid "How to restore backup files?"
+msgstr "¿Cómo restaurar archivos de respaldo?"
+
+#: index.php:85
+msgid "Install WP Mechanic"
+msgstr "Instalar WP Mechanic"
+
+#: index.php:86
+msgid "Contact Developer"
+msgstr "Desarrollador de contacto"
+
+#: pro/inc/Mysqldump.php:289
+msgid "failed"
+msgstr "ha fallado"
+
+#: pro/inc/kbd_list_pro.php:31
+msgid "Backup settings deleted successfully."
+msgstr "La configuración de la copia de seguridad se eliminó correctamente."
+
+#: pro/inc/kbd_list_pro.php:47
+msgid "Backup settings & files deleted successfully."
+msgstr "Configuración de copia de seguridad y archivos eliminados con éxito."
+
+#: pro/inc/kbd_list_pro.php:53
+msgid "Backup settings deleted successfully but files do not exist."
+msgstr ""
+"La configuración de la copia de seguridad se eliminó correctamente, pero los "
+"archivos no existen."
+
+#: pro/inc/kbd_list_pro.php:281 pro/inc/kbd_settings_pro.php:329
+msgid "Backup Archives"
+msgstr "Archivos de respaldo"
+
+#: pro/inc/kbd_list_pro.php:281
+msgid "Click here to create new backups"
+msgstr "Haga clic aquí para crear nuevas copias de seguridad"
+
+#: pro/inc/kbd_list_pro.php:281
+msgid "Create New Backup"
+msgstr "Crear nueva copia de seguridad"
+
+#: pro/inc/kbd_list_pro.php:302 pro/inc/kbd_settings_pro.php:363
+msgid "Success!"
+msgstr "¡Éxito!"
+
+#: pro/inc/kbd_list_pro.php:302
+msgid "Backup files are restored."
+msgstr "Se restauran los archivos de respaldo."
+
+#: pro/inc/kbd_list_pro.php:304
+msgid "Pages"
+msgstr "Páginas"
+
+#: pro/inc/kbd_list_pro.php:305 pro/inc/kbd_settings_pro.php:366
+#: pro/inc/kbd_settings_pro.php:486
+msgid "Themes"
+msgstr "Temas"
+
+#: pro/inc/kbd_list_pro.php:314 pro/inc/kbd_settings_pro.php:375
+msgid "Files in"
+msgstr "Archivos en"
+
+#: pro/inc/kbd_list_pro.php:317 pro/inc/kbd_settings_pro.php:379
+#: pro/inc/kbd_settings_pro.php:530
+msgid "Images"
+msgstr "Imágenes"
+
+#: pro/inc/kbd_list_pro.php:318 pro/inc/kbd_settings_pro.php:380
+msgid "Core Files"
+msgstr "Archivos principales"
+
+#: pro/inc/kbd_list_pro.php:334 pro/inc/kbd_settings_pro.php:339
+msgid "FIND & REPLACE"
+msgstr "ENCONTRAR Y REEMPLAZAR"
+
+#: pro/inc/kbd_list_pro.php:341
+msgid "Sorry!"
+msgstr "¡Lo siento!"
+
+#: pro/inc/kbd_list_pro.php:341
+msgid ""
+"Database tables will not be imported/restored with restore option for safety "
+"reasons."
+msgstr ""
+"Las tablas de la base de datos no se importarán / restaurarán con la opción "
+"de restauración por razones de seguridad."
+
+#: pro/inc/kbd_list_pro.php:341
+msgid "Kindly use phpmyadmin or any other utility to restore database backup."
+msgstr ""
+"Utilice amablemente phpmyadmin o cualquier otra utilidad para restaurar la "
+"copia de seguridad de la base de datos."
+
+#: pro/inc/kbd_list_pro.php:352
+msgid "Name"
+msgstr "Nombre"
+
+#: pro/inc/kbd_list_pro.php:353
+msgid "Size"
+msgstr "Talla"
+
+#: pro/inc/kbd_list_pro.php:354
+msgid "Date"
+msgstr "Fecha"
+
+#: pro/inc/kbd_list_pro.php:356
+msgid "Actions"
+msgstr "Comportamiento"
+
+#: pro/inc/kbd_list_pro.php:381
+msgid "Click here to delete settings and file"
+msgstr "Haga clic aquí para eliminar la configuración y el archivo"
+
+#: pro/inc/kbd_list_pro.php:382
+msgid "Click here to replace original files with backed up files"
+msgstr ""
+"Haga clic aquí para reemplazar los archivos originales con archivos "
+"respaldados"
+
+#: pro/inc/kbd_list_pro.php:382
+msgid "Restore"
+msgstr "Restaurar"
+
+#: pro/inc/kbd_list_pro.php:395
+msgid "No backup found"
+msgstr "No se encontró copia de seguridad"
+
+#: pro/inc/kbd_list_pro.php:421
+msgid "Delete Backup"
+msgstr "Eliminar copia de seguridad"
+
+#: pro/inc/kbd_list_pro.php:427
+msgid "Are you sure, you want to proceed?"
+msgstr "¿Estas seguro que deseas continuar?"
+
+#: pro/inc/kbd_list_pro.php:430
+msgid "Delete Settings"
+msgstr "Eliminar configuración"
+
+#: pro/inc/kbd_list_pro.php:431
+msgid "Delete Settings & File"
+msgstr "Eliminar configuración y archivo"
+
+#: pro/inc/kbd_list_pro.php:432
+msgid "Dismiss"
+msgstr "Descartar"
+
+#: pro/inc/kbd_settings_pro.php:248
+msgid "Please choose a different filename and proceed."
+msgstr "Elija un nombre de archivo diferente y continúe."
+
+#: pro/inc/kbd_settings_pro.php:329
+msgid "Click here to download/restore backup files"
+msgstr "Haga clic aquí para descargar / restaurar archivos de respaldo"
+
+#: pro/inc/kbd_settings_pro.php:348
+msgid "Info!"
+msgstr "Info!"
+
+#: pro/inc/kbd_settings_pro.php:348
+msgid "Select at least one file to create backup."
+msgstr "Seleccione al menos un archivo para crear una copia de seguridad."
+
+#: pro/inc/kbd_settings_pro.php:355
+msgid "Warning!"
+msgstr "¡Advertencia!"
+
+#: pro/inc/kbd_settings_pro.php:363
+msgid "Files are backed up successfully."
+msgstr "Los archivos se respaldan con éxito."
+
+#: pro/inc/kbd_settings_pro.php:365
+msgid "Files"
+msgstr "Archivos"
+
+#: pro/inc/kbd_settings_pro.php:381 pro/inc/kbd_settings_pro.php:621
+msgid "Database Tables"
+msgstr "Tablas de bases de datos"
+
+#: pro/inc/kbd_settings_pro.php:401
+msgid "Backup Filename"
+msgstr "Nombre de archivo de respaldo"
+
+#: pro/inc/kbd_settings_pro.php:402
+msgid "Enter backup label"
+msgstr "Ingrese la etiqueta de respaldo"
+
+#: pro/inc/kbd_settings_pro.php:406
+msgid "Backup Type"
+msgstr "Tipo de respaldo"
+
+#: pro/inc/kbd_settings_pro.php:409
+msgid "Select Backup Type"
+msgstr "Seleccionar tipo de copia de seguridad"
+
+#: pro/inc/kbd_settings_pro.php:430
+msgid "Create Backup"
+msgstr "Crear copia de seguridad"
+
+#: pro/inc/kbd_settings_pro.php:443
+msgid "Active Theme Files"
+msgstr "Archivos de temas activos"
+
+#: pro/inc/kbd_settings_pro.php:581
+msgid "Root Files"
+msgstr "Archivos raíz"
+
+#~ msgid "Include-tables and exclude-tables should be arrays"
+#~ msgstr ""
+#~ "Las tablas de inclusión y las tablas de exclusión deben ser matrices"
+
+#~ msgid "Server version"
+#~ msgstr "Versión del servidor"
+
+#~ msgid "Stand-In structure for view"
+#~ msgstr "Estructura stand-in para ver"
+
+#~ msgid "View structure for view"
+#~ msgstr "Ver estructura para ver"
+
+#~ msgid "Dumping routines for database"
+#~ msgstr "Volcado de rutinas para la base de datos"
+
+#~ msgid "Dumping events for database"
+#~ msgstr "Volcado de eventos para la base de datos"
+
+#~ msgid "Dumping data for table"
+#~ msgstr "Volcado de datos para tabla"
+
+#~ msgid "Show me basic features"
+#~ msgstr "Muéstrame características básicas"
+
+#~ msgid "Could not upload to Amazon"
+#~ msgstr "No se pudo subir a Amazon"
+
+#~ msgid "Success"
+#~ msgstr "Éxito"
+
+#~ msgid "File Saved Successfully"
+#~ msgstr "Archivo guardado correctamente"
+
+#~ msgid "Error"
+#~ msgstr "Error"
+
+#~ msgid "Compress"
+#~ msgstr "Comprimir"
+
+#~ msgid "Backup Now"
+#~ msgstr "Copia ahora"
+
+#~ msgid "Something went wrong:"
+#~ msgstr "Algo salió mal:"
+
+#~ msgid "Database Backup by"
+#~ msgstr "Copia de seguridad de la base de datos por"
+
+#~ msgid "Plugin"
+#~ msgstr "Enchufar"
+
+#~ msgid "File size"
+#~ msgstr "Tamaño del archivo"
+
+#~ msgid "at"
+#~ msgstr "a"
